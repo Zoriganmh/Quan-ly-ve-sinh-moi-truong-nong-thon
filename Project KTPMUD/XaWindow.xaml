@@ -1,0 +1,256 @@
+﻿<Window x:Class="Project_KTPMUD.XaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_KTPMUD"
+        mc:Ignorable="d"
+        Title="Window1" Height="650" Width="1100">
+
+    <Grid >
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="209"/>
+            <RowDefinition Height="91"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0" x:Name="MenuColumn" SharedSizeGroup="Menu"/>
+            <!-- Thanh menu bên trái -->
+            <ColumnDefinition Width="*" SharedSizeGroup="Content"/>
+            <!-- Nội dung chính -->
+        </Grid.ColumnDefinitions>
+
+
+
+        <Border Grid.Row="0" Grid.Column="0" Background="#FF00879D" Grid.ColumnSpan="2">
+        </Border>
+
+
+        <Border Grid.Row="3" Grid.Column="0" Background="#FF00879D" Grid.ColumnSpan="2">
+        </Border>
+
+
+        <Border Grid.Row="4" Grid.Column="0" Background="#FF00879D" Grid.ColumnSpan="2">
+        </Border>
+
+        <Border Grid.Row="2" Grid.Column="0" Background="#FF00879D" x:Name="SideMenu" Grid.ColumnSpan="2" Margin="0,0,1100,0">
+            <StackPanel Margin="10">
+                <Button Content="Tìm kiếm"
+                Margin="0,10,0,0"
+                Height="40"
+                Background="#FF7CD0DA"
+                Foreground="White"
+                FontWeight="Bold"/>
+                <Button Content="Quản lý"
+                Margin="0,10,0,0"
+                Height="40"
+                Background="#FF7CD0DA"
+                Foreground="White"
+                FontWeight="Bold"/>
+                <Button Content="Trạng thái"
+                Margin="0,10,0,0"
+                Height="40"
+                Background="#FF7CD0DA"
+                Foreground="White"
+                FontWeight="Bold"/>
+                <Button Content="Lịch sử"
+                Margin="0,10,0,0"
+                Height="40"
+                Background="#FF7CD0DA"
+                Foreground="White"
+                FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="1" Grid.Column="0" Background="#FF7CD0DA" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" Width="1090">
+
+                <Button x:Name="ToggleMenuButton"
+                        Content="☰" 
+                        Width="65" 
+                        Height="66" 
+                        Background="#FF016987" 
+                        Foreground="White" 
+                        FontSize="35" 
+                        FontWeight="Bold" 
+                        Click="ToggleMenuButton_Click" 
+                        Margin="7,0,0,0" 
+                        VerticalAlignment="Center" 
+                        HorizontalAlignment="Left"/>
+
+                <TextBlock Text="Chào mừng bạn đến với đơn vị quản lý hành chính cấp Xã"
+                           FontSize="30"
+                           FontWeight="Bold"
+                           Foreground="#FF10545F"
+                           VerticalAlignment="Center"
+                           Margin="10,0,0,0"/>
+
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="2" Grid.Column="1" CornerRadius="0,0,0,0" Height="220" VerticalAlignment="Top" Grid.RowSpan="2">
+            <Border.Background>
+                <ImageBrush ImageSource="Images/commune.jpg" Stretch="UniformToFill" />
+            </Border.Background>
+        </Border>
+        <Border Grid.Row="3" Grid.Column="1" Background="#FFCFEAAA" Padding="10">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <!-- TextBox tìm kiếm -->
+                <TextBox x:Name="SearchTextBox" 
+                         Width="883" 
+                         Height="40" 
+                         Margin="0,0,10,0" 
+                         FontSize="16" 
+                         VerticalAlignment="Center"
+                         TextChanged="SearchTextBox_TextChanged">
+                    <TextBox.Style>
+                        <Style TargetType="TextBox">
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="Text" Value="Nhập từ khóa để tìm kiếm"/>
+                            <Style.Triggers>
+                                <Trigger Property="Text" Value="Nhập từ khóa để tìm kiếm">
+                                    <Setter Property="Foreground" Value="Gray"/>
+                                </Trigger>
+                                <Trigger Property="IsFocused" Value="True">
+                                    <Setter Property="Foreground" Value="Black"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+
+                <!-- Nút tìm kiếm -->
+                <Button x:Name="SearchButton" 
+                        Content="Tìm kiếm" 
+                        Width="186" 
+                        Height="40" 
+                        Background="#FF016987" 
+                        Foreground="White" 
+                        FontSize="16" 
+                        VerticalAlignment="Center" 
+                        Click="SearchButton_Click"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="4" Grid.Column="1" Background="#FF94CA52">
+            <!-- ScrollViewer để hỗ trợ thanh cuộn -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <!-- Nội dung chính chia làm 5 phần -->
+                <StackPanel>
+                    <!-- Phần 1 -->
+                    <Border Margin="10" Background="White" Padding="10">
+                        <StackPanel>
+                            <Button x:Name="ToggleSection1Button" 
+                        Content="Quản lý quy hoạch nước sạch và vệ sinh môi trường nông thôn ▼"
+                        FontSize="16" 
+                        FontWeight="Bold" 
+                        Background="Transparent" 
+                        BorderThickness="0"
+                        Click="ToggleSection1_Click" />
+                            <StackPanel x:Name="Section1Details" Visibility="Collapsed" Margin="10,5,0,0">
+                                <TextBlock Text="Quản lý quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tìm kiếm thông tin quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý và báo cáo về quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý file đính kèm của báo cáo về quy hoạch nước sạch và vệ sinh môi trường nông thôn " TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý bản đồ quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Phần 2 -->
+                    <Border Margin="10" Background="#FFEDFFD4" Padding="10">
+                        <StackPanel>
+                            <Button x:Name="ToggleSection2Button" 
+                        Content="Quản lý thông tin về nước sạch và vệ sinh môi trường nông thôn▼"
+                        FontSize="16" 
+                        FontWeight="Bold" 
+                        Background="Transparent" 
+                        BorderThickness="0"
+                        Click="ToggleSection2_Click" />
+                            <StackPanel x:Name="Section2Details" Visibility="Collapsed" Margin="10,5,0,0">
+                                <TextBlock Text="Quản lý công trình cấp nước sinh hoạt tập trung nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tìm kiếm thông tin công trình cấp nước sinh hoạt tập trung nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý công trình cấp nước nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tìm kiếm thông tin công trình cấp nước nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Xem bản đồ phân bố công trình nước sạch" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tra cứu công trình nước sạch trên bản đồ" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Phần 3 -->
+                    <Border Margin="10" Background="#FFC6E69A" Padding="10">
+                        <StackPanel>
+                            <Button x:Name="ToggleSection3Button" 
+                        Content="Báo cáo thống kê về CSDL nước sạch và vệ sinh môi trường nông thôn▼"
+                        FontSize="16" 
+                        FontWeight="Bold" 
+                        Background="Transparent" 
+                        BorderThickness="0"
+                        Click="ToggleSection3_Click" />
+                            <StackPanel x:Name="Section3Details" Visibility="Collapsed" Margin="10,5,0,0">
+                                <TextBlock Text="Thống kê về công trình nước sạch" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Báo cáo thống kê công trình nước sạch theo thời gian" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="So sách công trình nước sạch theo thời gian (dưới dạng biểu đồ)" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý báo cáo về chỉ số nước sạch nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý file đính kèm của báo cáo chỉ số nước sạch nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý báo cáo thực hiện chỉ tiêu nước sạch" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý file đính kèm của báo cáo thực hiện chỉ tiêu nước sạch" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Phần 4 -->
+                    <Border Margin="10" Background="#FFCDF09E" Padding="10">
+                        <StackPanel>
+                            <Button x:Name="ToggleSection4Button" 
+                        Content="Quản lý Văn bản pháp luật về CSDL nước sạch và vệ sinh môi trường nông thôn ▼"
+                        FontSize="16" 
+                        FontWeight="Bold" 
+                        Background="Transparent" 
+                        BorderThickness="0"
+                        Click="ToggleSection4_Click" />
+                            <StackPanel x:Name="Section4Details" Visibility="Collapsed" Margin="10,5,0,0">
+                                <TextBlock Text="Quản lý văn bản pháp luật về quản lý nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý file đính kèm của văn bản pháp luật về quản lý nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tra cứu văn bản pháp luật về quản lý nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Phần 5 -->
+                    <Border Margin="10" Background="#FF5E9C21" Padding="10">
+                        <StackPanel>
+                            <Button x:Name="ToggleSection5Button" 
+                        Content="Quản lý CSDL các cơ sở chăn nuôi ▼"
+                        FontSize="16" 
+                        FontWeight="Bold" 
+                        Background="Transparent" 
+                        BorderThickness="0"
+                        Click="ToggleSection5_Click" />
+                            <StackPanel x:Name="Section5Details" Visibility="Collapsed" Margin="10,5,0,0">
+                                <TextBlock Text="Quản lý danh mục tổ chức, cá nhân trong cơ sở chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tra cứu thông tin về tổ chức, cá nhân trong cơ sở chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý thông tin về điều kiện chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý thông tin giấy chứng nhận của cơ sở chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý kết quả thống kê các hộ chăn nuôi nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tra cứu kết quả thống kê các hộ chăn nuôi nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý thông tin tổ chức chứng nhận sự phù hợp được chỉ định" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Tra cứu thông tin tổ chức chứng nhận sự phù hợp được chỉ định" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <TextBlock Text="Quản lý danh mục cơ sở chế biến sản phẩm chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+
+
+    </Grid>
+</Window>
