@@ -1,0 +1,72 @@
+﻿<Window x:Class="Project_KTPMUD.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Đăng Ký Tài Khoản" Height="440" Width="450">
+    <Grid Margin="10">
+
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Regi.jpg" Stretch="UniformToFill" Opacity="0.6" />
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Đăng Ký Tài Khoản"
+                   FontSize="22" FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="10" Grid.Row="0" Foreground="#FF031C37" />
+
+        <!-- Họ và Tên -->
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10">
+            <TextBlock Text="Họ và Tên *" FontSize="16" FontWeight="Bold" />
+            <TextBox x:Name="FullNameTextBox"
+                     FontSize="14"
+                     VerticalContentAlignment="Center"
+                     Height="30" />
+        </StackPanel>
+
+        <!-- Tên Đăng Nhập -->
+        <StackPanel Grid.Row="2" Orientation="Vertical" Margin="10">
+            <TextBlock Text="Tên Đăng Nhập *" FontSize="16" FontWeight="Bold" />
+            <TextBox x:Name="UsernameTextBox"
+                     FontSize="14"
+                     VerticalContentAlignment="Center"
+                     Height="30" />
+        </StackPanel>
+
+        <!-- Mật Khẩu -->
+        <StackPanel Grid.Row="3" Orientation="Vertical" Margin="10">
+            <TextBlock Text="Mật Khẩu *" FontSize="16" FontWeight="Bold" />
+            <PasswordBox x:Name="PasswordBox"
+                         FontSize="14"
+                         VerticalContentAlignment="Center"
+                         Height="30" />
+        </StackPanel>
+
+        <!-- Xác nhận mật khẩu -->
+        <StackPanel Grid.Row="4" Orientation="Vertical" Margin="10">
+            <TextBlock Text="Xác Nhận Mật Khẩu *" FontSize="16" FontWeight="Bold" />
+            <PasswordBox x:Name="ConfirmPasswordBox"
+                         FontSize="14"
+                         VerticalContentAlignment="Center"
+                         Height="30" />
+        </StackPanel>
+
+        <!-- Nút Đăng Ký -->
+        <Button Content="Đăng Ký"
+                Grid.Row="4"
+                Width="212" Height="40"
+                FontSize="18"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Click="RegisterButton_Click" Margin="0,71,0,0" Grid.RowSpan="3" FontWeight="Bold" Foreground="#FF041116" Background="#FFACDAE6" />
+    </Grid>
+</Window>
