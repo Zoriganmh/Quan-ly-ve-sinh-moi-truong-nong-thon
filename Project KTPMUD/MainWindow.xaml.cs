@@ -25,40 +25,71 @@ namespace Project_KTPMUD
             InitializeComponent();
         }
 
+        Modify modify = new Modify();
+
         private void LogInButton_Click(object sender, RoutedEventArgs e)
         {
-            // Kiểm tra vai trò đã chọn
-            if (txtUsername.Text == string.Empty || txtPassword.Password == string.Empty)
+            string username = txtUsername.Text;
+            string password = txtPassword.Password;
+     
+            if (username == string.Empty)
             {
-                MessageBox.Show("Vui lòng nhập tên đăng nhập và mật khẩu!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return;
+                MessageBox.Show("Vui lòng nhập tên đăng nhập!");
             }
-
-            if ((bool)AdminRadioButton.IsChecked)
+            else if(password == string.Empty )
             {
-                // Mở cửa sổ dành cho Admin
-                AdminWindow adminWindow = new AdminWindow();
-                adminWindow.Show();
-                this.Close();
-            }
-            else if ((bool)XaRadioButton.IsChecked)
-            {
-                // Mở cửa sổ dành cho Đơn vị hành chính cấp Xã
-                XaWindow xaWindow = new XaWindow();
-                xaWindow.Show();
-                this.Close();
-            }
-            else if ((bool)HuyenRadioButton.IsChecked)
-            {
-                // Mở cửa sổ dành cho Đơn vị hành chính cấp Huyện
-                HuyenWindow huyenWindow = new HuyenWindow();
-                huyenWindow.Show();
-                this.Close();
+                MessageBox.Show("Vui lòng nhập mật khẩu!");
             }
             else
             {
-                MessageBox.Show("Vui lòng chọn vai trò đăng nhập!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                string query = " Select * from TaiKhoan where Username = '"+username+"' and Password ='"+password+"' ";
+                if(modify.TaiKhoans(query).Count!=0)
+                {
+                    
+                   
+                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                    if ((bool)AdminRadioButton.IsChecked)
+                    {
+                        // Mở cửa sổ dành cho Admin
+                        AdminWindow adminWindow = new AdminWindow();
+                        adminWindow.Show();
+                        this.Close();
+                    }
+                    else if ((bool)XaRadioButton.IsChecked)
+                    {
+                        // Mở cửa sổ dành cho Đơn vị hành chính cấp Xã
+                        XaWindow xaWindow = new XaWindow();
+                        xaWindow.Show();
+                        this.Close();
+                    }
+                    else if ((bool)HuyenRadioButton.IsChecked)
+                    {
+                        // Mở cửa sổ dành cho Đơn vị hành chính cấp Huyện
+                        HuyenWindow huyenWindow = new HuyenWindow();
+                        huyenWindow.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Vui lòng chọn vai trò đăng nhập!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không chính xác!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information );
+                }
             }
+
+            
+        }
+
+        private void LogInButton_Click2(object sender, RoutedEventArgs e)
+        {
+            OpenRegisterWindow();
+        }
+        private void OpenRegisterWindow() 
+        { DangKy registerWindow = new DangKy(); 
+            registerWindow.Show(); 
         }
     }
 }

@@ -42,6 +42,8 @@
                             <RowDefinition Height="10" />
                         </Grid.RowDefinitions>
 
+
+
                         <!-- Tiêu đề -->
                         <Label Content="Vui lòng chọn vai trò đăng nhập:"
                                VerticalAlignment="Center"
@@ -125,7 +127,7 @@
                                          FontSize="16"
                                          VerticalContentAlignment="Center"
                                          HorizontalContentAlignment="Left"
-                                         MinWidth="200" Height="35" />
+                                         MinWidth="200" Height="35" PasswordChar="*" />
                         </Border>
 
                         <Border Grid.Row="4" Grid.Column="0" Background="#FF9ACF87" CornerRadius="8">
@@ -139,17 +141,38 @@
 
                 </Border>
 
-                <Border Grid.Row="6" Grid.Column="0" Background="#FF63D5F1" CornerRadius="0">
-                    <Button x:Name="LogInButton" 
-                            Click="LogInButton_Click"
-                            Content="ĐĂNG NHẬP"
-                            VerticalAlignment="Center"
-                            HorizontalAlignment="Center"
-                            FontSize="30"
-                            Background="{x:Null}"
-                            FontWeight="Bold"
-                            Foreground="#FF133864" 
-                            Width="580" Height="75" BorderBrush="{x:Null}"/>
+                <Border Grid.Row="6" CornerRadius="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Background="#FF63D5F1" CornerRadius="8" Margin="0,0,2,-2">
+                            <Button x:Name="LogInButton" 
+                                    Click="LogInButton_Click" 
+                                    Content="ĐĂNG NHẬP" 
+                                    VerticalAlignment="Center" 
+                                    FontSize="30" 
+                                    Background="{x:Null}" 
+                                    FontWeight="Bold" 
+                                    Foreground="#FF133864" Height="74" 
+                                    BorderBrush="{x:Null}" Margin="17,0,17,0"/>
+                        </Border>
+                        <Border Grid.Column="1" Background="CornflowerBlue" CornerRadius="8" Margin="10,0,0,0">
+                            <Button x:Name="LogInButton2" 
+                                    Click="LogInButton_Click2" 
+                                    Content="ĐĂNG KÝ" 
+                                    VerticalAlignment="Center" 
+                                    HorizontalAlignment="Center" 
+                                    FontSize="30" 
+                                    Background="{x:Null}" 
+                                    FontWeight="Bold" 
+                                    Foreground="#FF133864" 
+                                    Width="242" Height="56" 
+                                    BorderBrush="{x:Null}"/>
+                        </Border>
+                    </Grid>
+
                 </Border>
 
 
