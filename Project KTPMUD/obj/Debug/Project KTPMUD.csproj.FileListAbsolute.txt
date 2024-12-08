@@ -1,0 +1,118 @@
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Project KTPMUD.exe.config
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Project KTPMUD.exe
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Project KTPMUD.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\MainWindow.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\App.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD_MarkupCompile.cache
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD_MarkupCompile.lref
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\MainWindow.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.g.resources
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project_KTPMUD.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.exe
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\HuyenWindow.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\AdminWindow.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\XaWindow.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\HuyenWindow.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\AdminWindow.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\XaWindow.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\RegistrationWindow.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\RegistrationWindow.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page1.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page1.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PageD1\Page1.xaml.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page2.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page2.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page3.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page4.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page5.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page3.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page4.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page5.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD.exe.config
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.barcodes.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.commons.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.forms.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.io.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.kernel.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.layout.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.pdfa.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.pdfua.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.sign.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.styledxmlparser.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.svg.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Charting.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Quality.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Snippets.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.System.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.WPFonts.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.ValueTuple.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.barcodes.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.commons.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.forms.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.io.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.kernel.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.layout.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.pdfa.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.pdfua.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.sign.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.styledxmlparser.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\itext.svg.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Charting.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Charting.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Quality.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Quality.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.Snippets.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.System.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.System.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.WPFonts.pdb
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfSharp.WPFonts.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\System.ValueTuple.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project .2D0A6202.Up2Date
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\Project KTPMUD_Content.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfiumViewer.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\PdfiumViewer.xml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page6.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page6.baml
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page7.g.cs
+C:\Users\ADMIN\source\repos\Project KTPMUD\Project KTPMUD\obj\Debug\PageD1\Page7.baml
