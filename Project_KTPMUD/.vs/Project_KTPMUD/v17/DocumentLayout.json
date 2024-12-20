@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\huyenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\huyenwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|c:\\users\\littl\\source\\repos\\project_ktpmud\\project_ktpmud\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\xawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\xawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Project_KTPMUD||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\xawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\xawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\project_ktpmud\\huyenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECF664F-97E1-465D-B1EB-C0BCD45D08CC}|Project_KTPMUD\\Project_KTPMUD.csproj|solutionrelative:project_ktpmud\\huyenwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 861,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "XaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\XaWindow.xaml",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\XaWindow.xaml",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\XaWindow.xaml",
+              "RelativeToolTip": "Project_KTPMUD\\XaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T04:03:14.253Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Project_KTPMUD\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:36:39.15Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project_KTPMUD",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\Project_KTPMUD.csproj",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\Project_KTPMUD.csproj",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\Project_KTPMUD.csproj",
+              "RelativeToolTip": "Project_KTPMUD\\Project_KTPMUD.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-27T03:43:12.283Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\App.config",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\App.config",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\App.config",
+              "RelativeToolTip": "Project_KTPMUD\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-27T03:59:26.068Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\App.xaml",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\App.xaml",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\App.xaml",
+              "RelativeToolTip": "Project_KTPMUD\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T03:59:45.748Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\AdminWindow.xaml",
+              "RelativeToolTip": "Project_KTPMUD\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T04:03:56.081Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "Project_KTPMUD\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:04:44.728Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HuyenWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\HuyenWindow.xaml",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\HuyenWindow.xaml",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\HuyenWindow.xaml",
+              "RelativeToolTip": "Project_KTPMUD\\HuyenWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T04:15:42.23Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\MainWindow.xaml",
+              "RelativeToolTip": "Project_KTPMUD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T03:36:40.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\Window1.xaml",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\Window1.xaml",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\Window1.xaml",
+              "RelativeToolTip": "Project_KTPMUD\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T06:10:14.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\App.xaml.cs",
+              "RelativeToolTip": "Project_KTPMUD\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:21:43.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "XaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\XaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\XaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\XaWindow.xaml.cs",
+              "RelativeToolTip": "Project_KTPMUD\\XaWindow.xaml.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAA9wIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:20:51.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HuyenWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\HuyenWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Project_KTPMUD\\HuyenWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\littl\\source\\repos\\Project_KTPMUD\\Project_KTPMUD\\HuyenWindow.xaml.cs",
+              "RelativeToolTip": "Project_KTPMUD\\HuyenWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:20:26.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
