@@ -52,7 +52,8 @@
                 Height="40"
                 Background="#FF7CD0DA"
                 Foreground="White"
-                FontWeight="Bold"/>
+                FontWeight="Bold"></Button>
+                        
                     <Button Content="Trạng thái"
                 Margin="0,10,0,0"
                 Height="40"
@@ -66,9 +67,17 @@
                 Foreground="White"
                 FontWeight="Bold"/>
                 </StackPanel>
+                
             </Border>
-
-            <Border Grid.Row="1" Grid.Column="0" Background="#FF7CD0DA" Grid.ColumnSpan="2">
+            <!-- Management Options nằm ở hàng thứ hai -->
+            <StackPanel x:Name="ManagementOptions" Visibility="Collapsed" Margin="10,0,0,0">
+                <Button Content="Quản lý quy hoạch nước sạch và vệ sinh môi trường nông thôn" Margin="0,10,0,0" Height="40" Background="#FF7CD0DA" Foreground="White" FontWeight="Bold"/>
+                <Button Content="Quản lý thông tin về nước sạch và vệ sinh môi trường nông thôn" Margin="0,10,0,0" Height="40" Background="#FF7CD0DA" Foreground="White" FontWeight="Bold"/>
+                <Button Content="Báo cáo thống kê về CSDL nước sạch và vệ sinh môi trường nông thôn" Margin="0,10,0,0" Height="40" Background="#FF7CD0DA" Foreground="White" FontWeight="Bold"/>
+                <Button Content="Quản lý Văn bản pháp luật về CSDL nước sạch và vệ sinh môi trường nông thôn" Margin="0,10,0,0" Height="40" Background="#FF7CD0DA" Foreground="White" FontWeight="Bold"/>
+                <Button Content="Quản lý CSDL các cơ sở chăn nuôi" Margin="0,10,0,0" Height="40" Background="#FF7CD0DA" Foreground="White" FontWeight="Bold"/>
+            </StackPanel>
+            <Border Grid.Row="1" Grid.Column="0" Background="#FF7CD0DA" Grid.ColumnSpan="2" Margin="2,0,-2,0">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" Width="1090">
 
                     <Button x:Name="ToggleMenuButton"
@@ -194,28 +203,76 @@
             </Border>
 
             <Border Grid.Row="4" Grid.Column="1" Background="#FF94CA52">
+                
                 <StackPanel>
+                    
                     <!-- Phần 1 -->
                     <Border Margin="10" Background="White" Padding="10">
                         <StackPanel>
-                            <Button x:Name="ToggleSection1Button" 
-                                        Content="Quản lý quy hoạch nước sạch và vệ sinh môi trường nông thôn ▼"
-                                        FontSize="16" 
-                                        FontWeight="Bold" 
-                                        Background="Transparent" 
-                                        BorderThickness="0"
-                        Click="ToggleSection1_Click" />
+                            <Button x:Name="ToggleSection1Button" Content="Quản lý quy hoạch nước sạch và vệ sinh môi trường nông thôn ▼" FontSize="16" FontWeight="Bold" Background="Transparent" BorderThickness="0" Click="ToggleSection1_Click" />
                             <StackPanel x:Name="Section1Details" Visibility="Collapsed" Margin="10,5,0,0">
                                 <TextBlock Text="Quản lý quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="StatisticsGrid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="True" CanUserDeleteRows="True">
+                                    
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*" />
+                                        <DataGridTextColumn Header="Tên Công Trình" Binding="{Binding TenCongTrinh}" Width="*" />
+                                        <DataGridTextColumn Header="Thời Gian Bắt Đầu" Binding="{Binding ThoiGianBatDau}" Width="*" />
+                                        <DataGridTextColumn Header="Thời Gian Thi Công" Binding="{Binding ThoiGianThiCong}" Width="*" />
+                                        <DataGridTextColumn Header="Diện Tích" Binding="{Binding DienTich}" Width="*" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+
                                 <TextBlock Text="Tìm kiếm thông tin quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+
                                 <TextBlock Text="Quản lý và báo cáo về quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+
+                                <DataGrid x:Name="StatisticsGrid2" AutoGenerateColumns="False" Margin="0,5,0,0">
+                                    
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*"/>
+                                        <DataGridTextColumn Header="Tên Công Trình" Binding="{Binding TenCongTrinh}" Width="*"/>
+                                        <DataGridTemplateColumn Header="Báo Cáo" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <ItemsControl ItemsSource="{Binding GiayToList}">
+                                                        <ItemsControl.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <StackPanel>
+                                                                    <TextBox Text="{Binding TenFile, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontWeight="Bold" />
+                                                                    <TextBox Text="{Binding DacTinhFile, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontStyle="Italic" />
+                                                                </StackPanel>
+                                                            </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                    </ItemsControl>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
                                 <TextBlock Text="Quản lý file đính kèm của báo cáo về quy hoạch nước sạch và vệ sinh môi trường nông thôn " TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="StatisticsGrid3" AutoGenerateColumns="False" Margin="10" CanUserAddRows="True" CanUserDeleteRows="True">
+                                    
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*" />
+                                        <DataGridTextColumn Header="Tên File" Binding="{Binding TenFile}" Width="*" />
+                                        <DataGridTextColumn Header="Nhãn Dán File" Binding="{Binding NhanDanFile}" Width="*" />
+                                        <DataGridTemplateColumn Header="Hành Động" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Content="Mở" Click="OpenFile_Click"/>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
                                 <TextBlock Text="Quản lý bản đồ quy hoạch nước sạch và vệ sinh môi trường nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
                             </StackPanel>
                         </StackPanel>
                     </Border>
+              
 
-                    <!-- Phần 2 -->
+            <!-- Phần 2 -->
                     <Border Margin="10" Background="#FFEDFFD4" Padding="10">
                         <StackPanel>
                             <Button x:Name="ToggleSection2Button" 
@@ -227,8 +284,49 @@
                                         Click="ToggleSection2_Click" />
                             <StackPanel x:Name="Section2Details" Visibility="Collapsed" Margin="10,5,0,0">
                                 <TextBlock Text="Quản lý công trình cấp nước sinh hoạt tập trung nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="StatisticsGrid1" AutoGenerateColumns="False" Margin="0,5,0,0">
+                                    
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*"/>
+                                        <DataGridTextColumn Header="Tên Công Trình" Binding="{Binding TenCongTrinh}" Width="*"/>
+                                        <DataGridCheckBoxColumn Header="Hoạt Động" Binding="{Binding HoatDong}" Width="*"/>
+                                        <DataGridTemplateColumn Header="Xem Chi Tiết" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Content="Chi Tiết" Click="OnDetailButtonClick"/>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+
+                                        <DataGridTemplateColumn Header="Hành Động" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Content="Xóa" Click="OnDeleteButtonClick"/>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <StackPanel Orientation="Horizontal" Margin="10,5,0,0">
+                                    <TextBox x:Name="txtTenCongTrinh" Width="200" Margin="5" Text="Tên Công Trình"/>
+                                    <CheckBox x:Name="chkHoatDong" Content="Hoạt Động" Margin="5"/>
+                                    <TextBox x:Name="txtNgaydivaohoatdong" Width="200" Margin="5" Text="Ngày đi vào hoạt động"/>
+                                    <Button Content="Thêm" Click="AddItem_Click" Width="100" Margin="5"/>
+                                </StackPanel>
+
                                 <TextBlock Text="Tìm kiếm thông tin công trình cấp nước sinh hoạt tập trung nông thôn" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                 <TextBlock Text="Quản lý công trình cấp nước nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="CongTrinhGrid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="True" CanUserDeleteRows="True">
+                                   
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*" />
+                                        <DataGridTextColumn Header="Tên Công Trình" Binding="{Binding TenCongTrinh}" Width="*" />
+                                        <DataGridComboBoxColumn Header="Loại Công Trình" SelectedItemBinding="{Binding LoaiCongTrinh}" Width="*"/>
+                                        <DataGridTextColumn Header="Năm Xây Dựng" Binding="{Binding NamXayDung}" Width="*" />
+                                        <DataGridTextColumn Header="Chủ Đầu Tư" Binding="{Binding ChuDauTu}" Width="*" />
+                                        <DataGridTextColumn Header="Đơn Vị Quản Lý" Binding="{Binding DonViQuanLy}" Width="*" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
                                 <TextBlock Text="Tìm kiếm thông tin công trình cấp nước nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                 <TextBlock Text="Xem bản đồ phân bố công trình nước sạch" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                 <TextBlock Text="Tra cứu công trình nước sạch trên bản đồ" TextWrapping="Wrap" Margin="0,5,0,0"/>
@@ -288,14 +386,57 @@
                                         Click="ToggleSection5_Click" />
                             <StackPanel x:Name="Section5Details" Visibility="Collapsed" Margin="10,5,0,0">
                                 <TextBlock Text="Quản lý danh mục tổ chức, cá nhân trong cơ sở chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="CoSoChanNuoiGrid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="True" CanUserDeleteRows="True">
+                                    
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*" />
+                                        <DataGridTextColumn Header="Tên Cơ Sở" Binding="{Binding TenCoSo}" Width="*" />
+                                        <DataGridTextColumn Header="Loại Hình Chăn Nuôi" Binding="{Binding LoaiHinhChanNuoi}" Width="*" />
+                                        <DataGridCheckBoxColumn Header="Tổ Chức" Binding="{Binding ToChuc}" Width="*" />
+                                        <DataGridCheckBoxColumn Header="Cá Nhân" Binding="{Binding CaNhan}" Width="*" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
                                 <TextBlock Text="Tra cứu thông tin về tổ chức, cá nhân trong cơ sở chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                 <TextBlock Text="Quản lý thông tin về điều kiện chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <StackPanel>
+                                    <TextBlock Text="Quản lý điều kiện chăn nuôi" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+                                    <DataGrid x:Name="DieuKienCoSoChanNuoiGrid" AutoGenerateColumns="False" Margin="0,5,0,0" IsReadOnly="True">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*"/>
+                                            <DataGridTextColumn Header="Tên Cơ Sở" Binding="{Binding TenCoSo}" Width="*"/>
+                                            <DataGridTextColumn Header="Quy Mô Chăn Nuôi" Binding="{Binding QuyMoChanNuoi}" Width="*"/>
+                                            <DataGridTextColumn Header="Giấy Phép" Binding="{Binding GiayPhep}" Width="*"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    
+                                </StackPanel>
+
                                 <TextBlock Text="Quản lý thông tin giấy chứng nhận của cơ sở chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="GiayChungNhanGrid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="True" CanUserDeleteRows="True">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*"/>
+                                        <DataGridTextColumn Header="Tên Giấy Chứng Nhận" Binding="{Binding TenGiayChungNhan}" Width="*"/>
+                                        <DataGridTemplateColumn Header="Xem Chi Tiết" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Content="Xem Chi Tiết" Click="OnDetailButtonClickGCN"/>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
                                 <TextBlock Text="Quản lý kết quả thống kê các hộ chăn nuôi nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                 <TextBlock Text="Tra cứu kết quả thống kê các hộ chăn nuôi nhỏ lẻ" TextWrapping="Wrap" Margin="0,5,0,0"/>
-                                <TextBlock Text="Quản lý thông tin tổ chức chứng nhận sự phù hợp được chỉ định" TextWrapping="Wrap" Margin="0,5,0,0"/>
-                                <TextBlock Text="Tra cứu thông tin tổ chức chứng nhận sự phù hợp được chỉ định" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                 <TextBlock Text="Quản lý danh mục cơ sở chế biến sản phẩm chăn nuôi" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                <DataGrid x:Name="CoSoCheBienGrid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="True" CanUserDeleteRows="True">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Số Thứ Tự" Binding="{Binding STT}" Width="*" />
+                                        <DataGridTextColumn Header="Tên Cơ Sở" Binding="{Binding TenCoSo}" Width="*" />
+                                        <DataGridTextColumn Header="Loại Sản Phẩm" Binding="{Binding LoaiSanPham}" Width="*" />
+                                        <DataGridTextColumn Header="Số Điện Thoại" Binding="{Binding SoDienThoai}" Width="*" />
+                                        <DataGridTextColumn Header="Mã Số Thuế" Binding="{Binding MaSoThue}" Width="*" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
                             </StackPanel>
                         </StackPanel>
                     </Border>

@@ -189,9 +189,6 @@
     <Compile Include="PageD1\Page7.xaml.cs">
       <DependentUpon>Page7.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RegistrationWindow.xaml.cs">
-      <DependentUpon>RegistrationWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="XaWindow.xaml.cs">
       <DependentUpon>XaWindow.xaml</DependentUpon>
     </Compile>
@@ -244,7 +241,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RegistrationWindow.xaml">
+    <Page Include="TypeResource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

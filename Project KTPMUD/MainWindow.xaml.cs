@@ -27,34 +27,14 @@ namespace Project_KTPMUD
 
         private void LogInButton_Click(object sender, RoutedEventArgs e)
         {
-            // Kiểm tra vai trò đã chọn
-            if (txtUsername.Text == string.Empty || txtPassword.Password == string.Empty)
-            {
-                MessageBox.Show("Vui lòng nhập tên đăng nhập và mật khẩu!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return;
-            }
-
-            if ((bool)AdminRadioButton.IsChecked)
-            {
-                // Mở cửa sổ dành cho Admin
-                AdminWindow adminWindow = new AdminWindow();
-                adminWindow.Show();
-                this.Close();
-            }
-            else if ((bool)XaRadioButton.IsChecked)
+             if ((bool)XaRadioButton.IsChecked)
             {
                 // Mở cửa sổ dành cho Đơn vị hành chính cấp Xã
                 XaWindow xaWindow = new XaWindow();
                 xaWindow.Show();
                 this.Close();
             }
-            else if ((bool)HuyenRadioButton.IsChecked)
-            {
-                // Mở cửa sổ dành cho Đơn vị hành chính cấp Huyện
-                HuyenWindow huyenWindow = new HuyenWindow();
-                huyenWindow.Show();
-                this.Close();
-            }
+            
             else
             {
                 MessageBox.Show("Vui lòng chọn vai trò đăng nhập!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -62,8 +42,7 @@ namespace Project_KTPMUD
         }
         private void RegisterLabel_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            RegistrationWindow registrationWindow = new RegistrationWindow();
-            registrationWindow.ShowDialog();
+          
         }
     }
 
